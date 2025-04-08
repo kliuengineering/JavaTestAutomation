@@ -1,7 +1,8 @@
-# 🧪 30-Day Java Test Automation Bootcamp
+# 🧪 30-Day Java Test Automation Bootcamp for My Enterprise QA Co-op
 **Author:** Kevin Liu  
-**Goal:** Become proficient in Java test automation (Java + Selenium + TestNG + Jenkins) to hit the ground running at Alectra Utilities.  
-**Schedule:** 6 hours/day × 30 days = 180 hours total
+**Goal:** Become proficient in Java test automation (Java + Selenium + TestNG + Jenkins + Oracle SQL + Enterprise tools) to hit the ground running at Alectra Utilities.  
+**Schedule:** 6 hours/day × 30 days = 180 hours total  
+**Target Stack:** Java, Selenium, TestNG, Jenkins, Oracle SQL, Postman, Azure DevOps, JIRA, SSRS, BizTalk (high-level)
 
 ---
 
@@ -9,119 +10,129 @@
 
 | Week | Theme | Milestones |
 |------|-------|------------|
-| 1 | Java Fundamentals | OOP, Exception Handling, Collections, IDE fluency |
-| 2 | Unit Testing + TestNG | JUnit, TestNG, assertions, annotations |
-| 3 | Selenium Web Automation | Selenium with Java, Page Object Model |
-| 4 | CI/CD + Capstone Project | Jenkins pipelines, full project, reports |
+| 1 | Java + SQL Fundamentals | OOP, Collections, Oracle SQL, PL/SQL |
+| 2 | Unit Testing + TestNG + Reporting | JUnit, TestNG, assertions, reporting |
+| 3 | Selenium Web Automation + POM | Selenium with Java, Page Object Model |
+| 4 | CI/CD + Capstone Project + Enterprise Workflows | Jenkins pipelines, test suite, batch jobs, defect lifecycle |
 
 ---
 
 ## ✅ Daily Task Tracker
 
-### 🟢 Week 1: Java Fundamentals (Days 1–7)
+### 🟢 Week 1: Java + SQL Fundamentals (Days 1–7)
 
 #### 📘 Goals:
-- Learn Java syntax, data types, OOP, and exception handling
-- Build simple console-based Java projects
-- Get familiar with IntelliJ IDEA or Eclipse
+- Master Java syntax and OOP
+- Learn Oracle SQL for CC&B data verification
+- Understand file I/O, exception handling
 
 #### ✅ Tasks:
-- [ ] Day 1: Java setup, Hello World, variables, data types, control flow  
-- [ ] Day 2: OOP (classes, objects, methods, constructors)  
-- [ ] Day 3: Inheritance, encapsulation, polymorphism  
-- [ ] Day 4: Interfaces, abstract classes, method overriding  
-- [ ] Day 5: Java Collections (List, Set, Map, Queue)  
-- [ ] Day 6: Exception handling, file I/O, intro to Maven  
-- [ ] Day 7: Build a mini console app (To-do List or Calculator) and push to GitHub
+- [ ] Day 1: Java setup, Hello World, control flow, data types  
+- [ ] Day 2: Classes, methods, constructors, Git basics  
+- [ ] Day 3: Inheritance, polymorphism, encapsulation  
+- [ ] Day 4: Java Collections (List, Map, Set) + simple demo  
+- [ ] Day 5: Exception handling, file I/O, intro to Maven  
+- [ ] Day 6: Oracle SQL: SELECT, JOINs, ROWNUM, basic PL/SQL blocks  
+- [ ] Day 7: Build a console project + write test SQL queries + push to GitHub
 
 ---
 
-### 🟡 Week 2: Java Unit Testing + TestNG (Days 8–14)
+### 🟡 Week 2: TestNG + Enterprise Testing Concepts (Days 8–14)
 
 #### 📘 Goals:
-- Master JUnit and TestNG
-- Write parameterized tests, use annotations
-- Practice writing test plans and assertions
+- Master unit + functional testing in Java
+- Learn TestNG framework and test management basics
+- Understand how enterprise QA fits within SDLC
 
 #### ✅ Tasks:
-- [ ] Day 8: Intro to JUnit 5 — structure, assertions, test runners  
-- [ ] Day 9: TestNG basics — `@Test`, `@Before`, `@After`, assertions  
-- [ ] Day 10: Grouping, dependencies, timeouts, expected exceptions  
-- [ ] Day 11: Parameterized tests + DataProviders in TestNG  
-- [ ] Day 12: Using Maven to manage test dependencies  
-- [ ] Day 13: Mocking and stubbing basics (intro only)  
-- [ ] Day 14: Write tests for your Week 1 Java app
+- [ ] Day 8: JUnit basics, assertions, test runners  
+- [ ] Day 9: TestNG: @Test, @BeforeMethod, @AfterMethod  
+- [ ] Day 10: Groups, dependencies, timeouts, exceptions  
+- [ ] Day 11: DataProviders for parameterized tests  
+- [ ] Day 12: Use Maven for managing test dependencies  
+- [ ] Day 13: Write test coverage for Week 1 console app  
+- [ ] Day 14: Study JIRA + Defect Lifecycle + SDLC (Agile + ITIL overview)
 
 ---
 
-### 🟠 Week 3: Selenium WebDriver with Java (Days 15–21)
+### 🟠 Week 3: Selenium WebDriver + Web App Automation (Days 15–21)
 
 #### 📘 Goals:
-- Automate web workflows (login, forms, navigation)
-- Learn Page Object Model and locator strategies
-- Handle waits, popups, dropdowns
+- Automate web flows using Selenium
+- Apply Page Object Model (POM)
+- Practice GitHub workflows
 
 #### ✅ Tasks:
-- [ ] Day 15: Selenium setup (ChromeDriver, WebDriverManager, Maven)  
-- [ ] Day 16: Locate elements by ID, name, CSS, XPATH  
-- [ ] Day 17: Actions: sendKeys, click, submit, assertions  
-- [ ] Day 18: Explicit vs Implicit waits, handling alerts  
-- [ ] Day 19: Intro to Page Object Model (POM)  
-- [ ] Day 20: Automate GitHub login + repo creation flow  
-- [ ] Day 21: Build a 3-page POM-based test suite and push to GitHub
+- [ ] Day 15: Setup Selenium + WebDriverManager + Maven  
+- [ ] Day 16: Locators: ID, CSS, XPATH, name  
+- [ ] Day 17: Actions: sendKeys, click, submit + validation  
+- [ ] Day 18: Waits (implicit/explicit), alerts, popups  
+- [ ] Day 19: Intro to POM structure (page + test layer)  
+- [ ] Day 20: Build GitHub Login + Repo Creation test  
+- [ ] Day 21: 3-page POM test suite + push to GitHub + review logs
 
 ---
 
-### 🔵 Week 4: CI/CD + Capstone Project (Days 22–30)
+### 🔵 Week 4: CI/CD + Capstone + Enterprise Systems (Days 22–30)
 
 #### 📘 Goals:
-- Build a full automation project
-- Integrate with Jenkins or GitHub Actions
-- Generate test reports and write documentation
+- Build a fully automated, testable app
+- Create a CI/CD pipeline
+- Explore enterprise-specific tools (batch, BizTalk, SSRS)
 
 #### ✅ Tasks:
-- [ ] Day 22: Intro to Jenkins, GitHub Actions basics  
-- [ ] Day 23: Create test pipeline: run tests on push  
-- [ ] Day 24: HTML reporting with TestNG + Allure or `pytest-html` equivalent  
-- [ ] Day 25: Plan capstone: choose target website/app to test  
-- [ ] Day 26: Build test suite: multiple test cases with POM  
-- [ ] Day 27: Polish: add reporting, logging, error screenshots  
-- [ ] Day 28: CI/CD integration for capstone  
-- [ ] Day 29: Write README, test plan, contribution guidelines  
-- [ ] Day 30: Final push! Demo for yourself or mentor, reflect
+- [ ] Day 22: Jenkins setup or GitHub Actions workflow  
+- [ ] Day 23: Build pipeline: run tests on push, HTML report  
+- [ ] Day 24: Screenshot on failure + logging + test reports  
+- [ ] Day 25: Design Capstone: choose website & outline cases  
+- [ ] Day 26: Build test suite: flows + assertions + structure  
+- [ ] Day 27: Add documentation: README, test plan, error logs  
+- [ ] Day 28: Explore Oracle CC&B context: write SQL for batch data  
+- [ ] Day 29: Learn Automic (UC4) + SSRS (just overview) + BizTalk role in M2C  
+- [ ] Day 30: Final CI/CD push + write a summary reflection
 
 ---
 
 ## 🧰 Tools & Resources
 
-### 🛠 Dev Tools
-- IntelliJ IDEA or Eclipse
-- Maven or Gradle
-- Git & GitHub
-- Jenkins or GitHub Actions
+### 🛠 Dev & Test Tools
+- IntelliJ IDEA or Eclipse  
+- Maven  
+- Git & GitHub  
+- Jenkins or GitHub Actions  
+- Postman or SoapUI  
+- SQL Developer (Oracle)
 
-### 📚 Courses
-- Udemy: [Selenium WebDriver with Java](https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/)
+### 📚 Learning Resources
 - Udemy: [Java Programming Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/)
-- YouTube: TestNG & JUnit tutorials (e.g. Karthik KK, Naveen AutomationLabs)
+- Udemy: [Selenium WebDriver with Java](https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/)
+- YouTube: TestNG, Jenkins, SQL tutorials (Karthik KK, Naveen AutomationLabs)
+- Docs: [JIRA Guide](https://www.atlassian.com/software/jira/guides), [BizTalk Overview](https://learn.microsoft.com/en-us/biztalk/)
 
 ---
 
-## 🧠 Stretch Goals (Optional)
-- Learn REST Assured for API Testing  
-- Use Docker for test environments  
-- Try Apache JMeter for load testing  
-- Explore Allure for rich test reporting  
+## 🧠 Enterprise Context (Lightweight Readings)
+- [ ] M2C: What is Meter-to-Cash?  
+- [ ] CC&B: Oracle Customer Care & Billing  
+- [ ] BizTalk: Middleware workflows  
+- [ ] SSRS: Report validation use cases  
+- [ ] ITIL/ITSM: Incident, Change, DRP terms
 
 ---
 
 ## 🏁 Outcome by Day 30
 
-- ✅ Full Java + Selenium + TestNG project on GitHub
-- ✅ CI/CD test pipeline (Jenkins or GitHub Actions)
-- ✅ Good understanding of Agile QA workflows
-- ✅ Ready to contribute from Day 1 at Alectra 🚀
+- ✅ Full Java + Selenium + TestNG project on GitHub  
+- ✅ CI/CD pipeline: run on push, with HTML reporting  
+- ✅ Understanding of enterprise QA: batch jobs, SQL, defect flow  
+- ✅ Ability to shadow or contribute to real-world test automation at Alectra
 
 ---
 
-_Track your progress by checking off each day's task and pushing daily commits to GitHub!_
+## 🧠 Stretch Goals (Optional)
+- [ ] Learn REST Assured (API test automation)  
+- [ ] Docker basics for test environment containers  
+- [ ] Explore Allure or ExtentReports  
+- [ ] Learn SQL batch validation via scripts
+
+---
